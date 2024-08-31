@@ -1,0 +1,75 @@
+.footer {
+    background-color: #2a2d36; /* Updated background color */
+    color: #e0e0e0; /* Light grey text */
+    padding: 40px 20px; /* Padding around the footer */
+    font-family: Arial, sans-serif; /* Consistent font */
+  }
+  
+  .footer-content {
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-around; /* Space between items */
+    align-items: center; /* Center align items vertically */
+    flex-wrap: wrap; /* Wrap in smaller screens */
+    max-width: 1200px; /* Max width for centered content */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .footer-logo {
+    text-align: center; /* Center text and logo */
+    margin-bottom: 20px; /* Space below the logo */
+  }
+  
+  .footer-logo img {
+    width: 200px; /* Adjust the logo size */
+    margin-bottom: 10px; /* Space below the logo */
+  }
+  
+  .footer-links {
+    display: flex; /* Flex for links */
+    justify-content: space-around; /* Space out columns */
+    flex: 1; /* Make it flexible */
+    max-width: 800px; /* Maximum width */
+    margin-top: 20px; /* Space on top */
+  }
+  
+  .footer-column {
+    text-align: left; /* Align left */
+  }
+  
+  .footer-column h4 {
+    font-weight: bold; /* Bold headings */
+    margin-bottom: 10px; /* Space below headings */
+  }
+  
+  .footer-column ul {
+    list-style: none; /* No bullets */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px; /* Space between items */
+  }
+  
+  .social-media {
+    display: flex; /* Flex layout for social media */
+    gap: 10px; /* Space between icons */
+  }
+  
+  .footer-bottom {
+    text-align: center; /* Center align bottom text */
+    margin-top: 40px; /* Space on top */
+  }
+  
+  .footer-bottom hr {
+    border: 0;
+    border-top: 1px solid #4a4a4a; /* Light border for divider */
+    margin: 20px 0; /* Margin around the divider */
+  }
+  
+  .footer-bottom p {
+    margin: 0; /* No margin */
+    font-size: 14px; /* Smaller font size */
+    color: #ccc; /* Slightly lighter text color */
+  }
+  

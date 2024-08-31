@@ -1,0 +1,35 @@
+.mission {
+    position: relative; /* For overlay positioning */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    padding: 100px 20px; /* Padding for spacing */
+    display: flex; /* Flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 200px; /* Set a fixed height */
+    transition: background-image 1s ease-in-out; /* Simple transition effect */
+  }
+  
+  .mission-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent for readability */
+    padding: 20px 40px; /* Padding around text */
+    text-align: center; /* Center-align text */
+    max-width: 700px; /* Limit width */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .mission-content h2 {
+    font-size: 1.5rem; /* Title font size */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 10px; /* Margin below the title */
+    color: #333; /* Text color */
+    font-style: italic; /* Italic for the title */
+  }
+  
+  .mission-content p {
+    font-size: 1.2rem; /* Paragraph font size */
+    color: #333; /* Text color */
+    line-height: 1.6; /* Line height */
+    margin: 0; /* No margin for paragraph */
+  }
+  

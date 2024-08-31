@@ -1,0 +1,67 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    position: relative; /* Needed for absolute positioning of background elements */
+  }
+  
+  .hero-content {
+    flex: 1;
+    max-width: 50%;
+    text-align: center; /* Center-align the text */
+    padding: 20px;
+    z-index: 1; /* Ensure content is above background */
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px; /* Adds spacing below the title */
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .hero-image {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 400px; /* Ensures the image is not too large */
+  }
+  
+  .hero-background {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 600px; /* Adjust based on your layout */
+    height: 600px;
+    background: rgba(143, 0, 255, 0.1); /* Background styling */
+    border-radius: 50%;
+    z-index: 0; /* Ensures it is behind the content */
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #333; /* Default color for the rest of the text */
+  }
+  
+  .highlight-text {
+    color: #d54e14; /* Specific color for "Monitoring System" */
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #555;
+  }
+  

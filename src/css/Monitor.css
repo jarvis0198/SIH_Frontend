@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #e6e1f9;
+}
+
+.monitoring-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e1f9;
+}
+
+.monitoring-header {
+    background-color: #4a3f84;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+}
+
+.content-container {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding: 20px; /* Adds padding around the content for spacing */
+    justify-content: space-around; /* This ensures that space is distributed around the containers */
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px; /* Adds padding inside each panel for spacing between cards and buttons */
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 10px; /* Aligns the top margin of cards */
+    margin-bottom: 10px; /* Creates space below each card */
+    text-align: center;
+    height: 12rem; /* Adjust height based on content */
+}
+
+.functions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns buttons to the start of the container */
+    margin-left: 200px; /* Left margin for buttons */
+}
+
+.function-button {
+    
+    background-color: #8b6dc4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 10px 0; /* Margin to create gaps between buttons */
+    cursor: pointer;
+    /* width: calc(100% - 50px); Width adjusted for left margin */
+    width: auto;
+}
+
+.right-panel .card:first-of-type {
+    margin-top: 10px; /* Ensures the top card is aligned with the left panel's top card */
+}
