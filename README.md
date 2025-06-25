@@ -47,6 +47,3 @@ This command removes the single build dependency (`react-scripts`) and copies th
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
